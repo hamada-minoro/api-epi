@@ -13,7 +13,7 @@ Os dados são extraídos de um arquivo TXT oficial do Ministério do Trabalho e 
 - **Helmet, CORS e Morgan** (segurança e logs)
 
 ## 📂 Estrutura do Projeto
-
+```bash
 api-epi-ts/
 │── node_modules/         # Dependências instaladas
 │── src/                  # Código fonte
@@ -40,7 +40,8 @@ api-epi-ts/
 │── README.md             # Documentação do projeto
 ```
 
-## 🛠️ Instalação
+### 🛠️ Instalação
+
 ### 1️⃣ Clonar o repositório
 ```bash
 git clone https://github.com/seu-usuario/api-epi-ts.git
@@ -63,7 +64,9 @@ DB_HOST=localhost
 ```bash
 npm run dev
 ```
-## 🏗️ Como Usar a API
+### 🏗️ Como Usar a API
+
+### Coloque o arquivo TXT na pasta raís do projeto
 ### 1️⃣ Importar os dados do arquivo TXT para o banco
 ```bash
 npm run import-data
