@@ -1,0 +1,11 @@
+# Ignorar arquivos de log grandes
+linhas_invalidas.log
+tgg_export_caepi.txt
+
+# Ignorar arquivos de ambiente
+.env
+
+# Padrão para arquivos grandes
+*.log
+*.txt
+!importante.txt
